@@ -1,0 +1,56 @@
+.background-container {
+    background: url('res1.webp') no-repeat center center;
+    background-size: cover; 
+    width: 100%;
+    min-height: 100vh; 
+}
+.shining-text {
+   color: #C79747;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px rgba(255, 255, 255, 0.8);
+
+    transition: text-shadow 1s ease-in-out;
+    font-size: 70px;
+    font-family: Lobster,sans-serif;
+  }
+  .navbar-toggler-icon {
+   border: 3px solid #C79747;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23C79747' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+ 
+  .navbar {
+    position: absolute; /* Places navbar over background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top */
+    background: transparent; /* No background */
+}
+  .navbar .nav-link{
+ background-color: #C79747;
+ color: black;
+  }
+  .working-hours{
+    
+    position: absolute;
+    bottom: 0;
+    
+  }
+  .list-unstyled{
+    display: flex;
+    gap: 40px;
+    color: #C79747;
+    font-size: 13px;
+    
+  }
+  @media (max-width: 700px) {
+    .background-container {
+      background-image: url('res1.webp'); 
+      background-size: cover;
+    }
+   
+  }
+  
+
+
+ 
